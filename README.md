@@ -48,7 +48,6 @@ This framework evaluates model performance through a "Quant" lens, focusing on:
 ```text
 ├── data/               # Raw and cleaned datasets
 ├── src/                
-│   ├── preprocessing/   # Cleaning and Feature Engineering
-│   ├── models/          # Logistic Regression, RF, and DL scripts
-│   └── analytics/       # P&L and Business Logic
+│   ├── iv/              # Analyzing and Fixing iv
+│   ├── models/          # Cleaning and Feature Engineering + Logistic Regression, RF, and DL scripts + P&L and Business Logic
 └── README.md
